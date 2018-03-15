@@ -1,0 +1,13 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  color: black;
+
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+td:hover { /* th:hover also if you wish */
+  background: yellow;
+}

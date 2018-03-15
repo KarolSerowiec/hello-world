@@ -1,0 +1,86 @@
+{
+  "studentList": [
+    {
+      "id": 16766227,
+      "name": "Piotr Kołacz",
+      "login": "pio-kol"
+    },
+    {
+      "id": 32289407,
+      "name": "Mateusz Dzieliński",
+      "login": "MatDls"
+    },
+    {
+      "id": 32303150,
+      "name": "AAA",
+      "login": "DanEDC"
+    }
+  ],
+  "taskList": [
+    {
+      "id": 1,
+      "name": "Fibonacci"
+    },
+    {
+      "id": 2,
+      "name": "BubbleSort"
+    },
+    {
+      "id": 3,
+      "name": "InsertionSort"
+    }
+  ],
+  "statusPlaceHolderTable": [
+    [
+      {
+        "studentId": 16766227,
+        "taskId": 1,
+        "status": "AAA"
+      },
+      {
+        "studentId": 16766227,
+        "taskId": 2,
+        "status": "AAA"
+      },
+      {
+        "studentId": 16766227,
+        "taskId": 3,
+        "status": "AAA"
+      }
+    ],
+    [
+      {
+        "studentId": 32289407,
+        "taskId": 1,
+        "status": "AAA"
+      },
+      {
+        "studentId": 32289407,
+        "taskId": 2,
+        "status": "AAA"
+      },
+      {
+        "studentId": 32289407,
+        "taskId": 3,
+        "status": "AAA"
+      }
+    ],
+    [
+      {
+        "studentId": 32303150,
+        "taskId": 1,
+        "status": "AAA"
+      },
+      {
+        "studentId": 32303150,
+        "taskId": 2,
+        "status": "AAA"
+      },
+      {
+        "studentId": 32303150,
+        "taskId": 3,
+        "status": "AAA"
+      }
+    ]
+  ]
+}

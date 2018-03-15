@@ -1,0 +1,39 @@
+<!--<ng-table [config]="config" [columns]="columns"> </ng-table>-->
+<!--<ng-table [config]="config" [columns]="columns" [rows]="rows" > </ng-table>-->
+
+<table class="table table-bordered">
+  <thead>
+  <tr>
+    <th>Student</th>
+    <th *ngFor="let task of tasks">
+      {{task.name}}
+    </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let status of statuses">
+    <td>{{status.name}}</td>
+    <td *ngFor="let task of tasks">
+    {{status[task["taskId"]]}}
+    </td>
+
+  </tr> </tbody>
+</table>
+
+<br>
+
+<table class="table table-bordered">
+  <thead>
+  <tr>
+    <th *ngFor="let column of columns">
+      {{column.title}}
+    </th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let row of rows">
+    <td *ngFor="let column of columns">
+      {{row[column["name"]]}}
+    </td>
+  </tr> </tbody>
+</table>

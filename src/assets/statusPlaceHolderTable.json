@@ -1,0 +1,20 @@
+ [
+    {
+      "name": "Piotr Kołacz",
+      "1": "true",
+      "2": "true",
+      "3": "true"
+    },
+    {
+      "name": "Mateusz Dzieliński",
+      "1": "true",
+      "2": "true",
+      "3": "false"
+    },
+    {
+      "name": "AAA",
+      "1": "false",
+      "2": "false",
+      "3": "false"
+    }
+  ]

@@ -1,17 +1,20 @@
 <div style="overflow-x:auto;">
-<table class="table table-hover" >
-<thead>
-<tr>
-  <td>Id</td>
-  <td>Name</td>
-</tr>
-</thead>
-<tbody>
-<tr *ngFor="let item of heroes">
-  <td>{{item.id}}</td>
-  <td>{{item.name}}</td>
-</tr>
-</tbody>
-</table>
+  <table class="table table-hover">
+    <thead>
+    <tr>
+      <th *ngFor="let column of titles">
+        {{column}}</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let hero of heroes">
+      <td>{{hero.id}}</td>
+      <td>{{hero.name}}</td>
+    </tr>    <tr *ngFor="let item of data">
+      <td >{{item.id}}</td>
+      <td>{{item.name}}</td>
+    </tr>
+    </tbody>
+  </table>
 </div>
 <p>"BBBBBBB"</p>
